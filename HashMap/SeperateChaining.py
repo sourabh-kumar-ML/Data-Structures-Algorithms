@@ -36,8 +36,8 @@ class Seperate_HashMap:
 
 hmap = Seperate_HashMap()
 
-hmap['march 6'] = 1
-hmap['march 17'] = 110
-hmap['b'] = 5
+hmap['key 1'] = 1
+hmap['key 3'] = 110
+hmap['key 2'] = 5
 
 
