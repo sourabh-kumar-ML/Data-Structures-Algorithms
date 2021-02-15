@@ -31,7 +31,9 @@ class Seperate_HashMap:
 
     def __delitem__(self,key):
         idx = self.get_hash(key)
-        self.arr[idx] = []
+        for index,value in enumerate(self.arr[idx]):
+            if value[0] == key:
+                del self.arr[idx][index]
 
 
 hmap = Seperate_HashMap()
